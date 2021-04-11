@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/*header*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.logo{ 
+    height: 500px;
+}
+
+/*nav*/
+nav{
+    background-color: gray;
+    width: 100%;
+    height: 105px;
+}
+nav ul li{
+    padding: 20px;
+    margin: 30px;
+    bottom: 8px;
+    border: ridge;
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+ul li a{
+    color: white;
+}
+
+.menu{
+    list-style: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center; 
+}
+
+li{
+    position: relative;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+}
+
+ul ul li{
+    display: block;
+    background-color: black;
+}
+
+ul li:hover ul{
+    display: block;
+    z-index: 1;
+}
+
+.my-navbar{
+    position: absolute;
+    right: 5%;
+    margin-top: 2%;
+}
+
+.form-inline{
+    display: flex;
+    justify-content: right;
+    flex-wrap: nowrap;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*carrusel*/
+.carrusel{
+    width: 50%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+   ;
+}
+
+.texto-gardel{
+    color: black !important;
+}
+
+.texto-carrusel{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.notas{
+    width: 550px;
+    height: 500px;
+}
+
+/* notas y contenido principal*/
+
+body{
+    background-color: rgb(201, 193, 193);
+}
+
+main{
+    display: flex;
+}
+
+#toscano{
+    padding: 50px;
+    width: 600px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#EntradaGardel{
+    width: 550px;
+    height: 309px;
+}
+#gardel{
+    padding: 50px;
+    width: 600px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#casares{
+    width: 550px;
+    height: 309px;
+}
+
+#gimnasio{
+    width: 550px;
+    height: 309px;
+}
+
+#arsenico{
+    padding: 50px;
+    width: 600px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#almagro{
+    padding: 50px;
+    width: 600px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#whatsapp{
+    display: flex;
+    justify-content: right;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom:0;
+    margin-left: 93%;
+    margin-bottom: 5%;
+}
+
+.formulario{
+    margin: 4%;
+}
+.checkbox{
+    word-spacing: 20px;
+}
+.californiano{
+    word-spacing: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    background-color: gray;
+    height: 150px;
+}
+.footloose {
+    margin-top: 60px;
+}
+
+.redes{
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+#facebook{
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+#instagram{
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+}
+#twitter{
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10%;
+}
+
+
+
