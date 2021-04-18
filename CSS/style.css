@@ -177,8 +177,17 @@ body {
   background-color: #c9c1c1;
 }
 
-.formulario {
-  padding-left: 5%;
+.nota__gardel {
+  width: 600px;
+  height: 500px;
+  font-family: "Oswald", sans-serif;
+  margin: 2%;
+}
+
+.nota__gardel .foto__gardel {
+  margin-top: 10%;
+  width: 550px;
+  height: 309px;
 }
 
 footer {

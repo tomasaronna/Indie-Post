@@ -65,10 +65,18 @@ body{
     background-color: $colorbody;
 }
 
-//formulario
+//nota
 
-.formulario{
-    padding-left: 5%;
+.nota__gardel{
+    width: $widht2;
+    height: $height1;
+    font-family: $tipo;
+    margin: 2%;
+    .foto__gardel{
+        margin-top: 10%;
+        width: $widht1;
+        height: $height2;
+    }
 }
 
 //footer
