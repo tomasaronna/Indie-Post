@@ -1,8 +1,5 @@
 
 // header
-body{
-    background-color: $colorbody;
-}
 header{
     background-color: $colorheader;
     display: flex;
@@ -50,6 +47,12 @@ nav{
             border-radius: .25rem;
         }
     }
+}
+
+//body
+
+body{
+    background-color: gray;
 }
 
 //footer
