@@ -66,6 +66,10 @@ body {
   background-color: #c9c1c1;
 }
 
+.formulario {
+  padding-left: 5%;
+}
+
 footer {
   margin-top: 5%;
   display: -webkit-box;
