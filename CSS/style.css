@@ -92,7 +92,6 @@ nav .barra__busqueda .boton__busqueda {
   margin-top: 5%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   margin-left: 10%;
 }
