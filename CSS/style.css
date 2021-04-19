@@ -297,6 +297,22 @@ body {
   background-color: #c9c1c1;
 }
 
+.nota__almagro {
+  width: 600px;
+  height: 500px;
+  font-family: "Oswald", sans-serif;
+}
+
+.nota__almagro .foto__gimnasio {
+  margin-top: 10%;
+  width: 550px;
+  height: 309px;
+}
+
+.nota__almagro .titulo__almagro {
+  font-size: 32px;
+}
+
 footer {
   margin-top: 5%;
   display: -webkit-box;

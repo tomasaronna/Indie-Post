@@ -65,6 +65,22 @@ body{
     background-color: $colorbody;
 }
 
+//notas
+
+.nota__almagro{
+    width: $widht2;
+    height: $height1;
+    font-family: $tipo;
+    .foto__gimnasio{
+        margin-top: 10%;
+        width: $widht1;
+        height: $height2;
+    }
+    .titulo__almagro{
+        font-size: $titulos;
+    }
+}
+
 //footer
 
 footer{
