@@ -472,6 +472,126 @@ footer #twitter {
   height: 30px;
 }
 
+header {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+}
+
+header .logo__pagina {
+  height: 500px;
+}
+
+nav {
+  background-color: gray;
+  width: 100%;
+  height: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .menu__nav {
+  padding: 20px;
+  margin: 30px;
+  bottom: 8px;
+  border: ridge;
+  border-color: white;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .menu__nav .menu__dropdown {
+  border: ridge;
+  border-color: white;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav .barra__busqueda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav .barra__busqueda .boton__busqueda {
+  border-color: black;
+  background-color: black;
+  color: white;
+  border-radius: .25rem;
+}
+
+body {
+  background-color: #c9c1c1;
+}
+
+.nota__arsenico {
+  width: 600px;
+  height: 500px;
+  font-family: "Oswald", sans-serif;
+  margin: 2%;
+}
+
+.nota__arsenico .foto__casares {
+  margin-top: 10%;
+  width: 550px;
+  height: 309px;
+}
+
+footer {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background-color: gray;
+  height: 150px;
+}
+
+footer .footloose {
+  margin-top: 60px;
+}
+
+footer .redes {
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
+footer #facebook {
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+footer #instagram {
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+footer #twitter {
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+}
+
 body {
   background-color: #c9c1c1;
 }
