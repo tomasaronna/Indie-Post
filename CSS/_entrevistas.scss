@@ -67,6 +67,15 @@ body{
 
 //notas
 
+.nota__toscano{
+    width: $widht2;
+    height: $height1;
+    font-family: $tipo;
+    .foto__toscano{
+        width: $widht1;
+        height: $height2;
+    }
+}
 
 //footer
 
