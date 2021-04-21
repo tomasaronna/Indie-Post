@@ -97,6 +97,10 @@ nav{
     margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "nota1 nota2"
+    "nota3 nota4";
     margin-left: 10%;
     .nota__toscano{
         width: $widht2;
