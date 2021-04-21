@@ -102,52 +102,27 @@ nav{
     "nota1 nota2"
     "nota3 nota4";
     margin-left: 10%;
-    .nota__toscano{
-        width: $widht2;
-        height: $height1;
-        font-family: $tipo;
-        .foto__toscano{
-            width: $widht1;
-            height: $height2;
-        }
+    &:nth-child(1){
+        grid-area: nota1;
     }
-    .nota__gardel{
-        width: $widht2;
-        height: $height1;
-        font-family: $tipo;
-        .foto__gardel{
-            margin-top: 10%;
-            width: $widht1;
-            height: $height2;
-        }
-        .titulo__gardel{
-            font-size: $titulos;
-        }
+    &:nth-child(2){
+        grid-area: nota2;   
     }
-    .nota__arsenico{
-        width: $widht2;
-        height: $height1;
-        font-family: $tipo;
-        .foto__casares{
-            width: $widht1;
-            height: $height2;
-        }
-        .titulo__arsenico{
-            font-size: $titulos;
-        }
+    &:nth-child(3){
+        grid-area: nota3;
     }
-    .nota__almagro{
-        width: $widht2;
-        height: $height1;
-        font-family: $tipo;
-        .foto__gimnasio{
-            margin-top: 10%;
-            width: $widht1;
-            height: $height2;
-        }
-        .titulo__almagro{
-            font-size: $titulos;
-        }
+    &:nth-child(4){
+        grid-area: nota4;
+    }
+    .nota__fotos{
+        width: 100%;
+    }
+    .nota__titulos{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .nota__texto{
+        font-size: 20px;
     }
 }
 

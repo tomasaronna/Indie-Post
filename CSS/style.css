@@ -914,65 +914,47 @@ nav .barra__busqueda .boton__busqueda {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "nota1 nota2" "nota3 nota4";
   margin-left: 10%;
 }
 
-.grid .nota__toscano {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
+.grid:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: nota1;
 }
 
-.grid .nota__toscano .foto__toscano {
-  width: 550px;
-  height: 309px;
+.grid:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: nota2;
 }
 
-.grid .nota__gardel {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
+.grid:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nota3;
 }
 
-.grid .nota__gardel .foto__gardel {
-  margin-top: 10%;
-  width: 550px;
-  height: 309px;
+.grid:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: nota4;
 }
 
-.grid .nota__gardel .titulo__gardel {
-  font-size: 32px;
+.grid .nota__fotos {
+  width: 100%;
 }
 
-.grid .nota__arsenico {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
+.grid .nota__titulos {
+  font-size: 30px;
+  font-weight: 700;
 }
 
-.grid .nota__arsenico .foto__casares {
-  width: 550px;
-  height: 309px;
-}
-
-.grid .nota__arsenico .titulo__arsenico {
-  font-size: 32px;
-}
-
-.grid .nota__almagro {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
-}
-
-.grid .nota__almagro .foto__gimnasio {
-  margin-top: 10%;
-  width: 550px;
-  height: 309px;
-}
-
-.grid .nota__almagro .titulo__almagro {
-  font-size: 32px;
+.grid .nota__texto {
+  font-size: 20px;
 }
 
 #whatsapp {
