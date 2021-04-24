@@ -912,12 +912,11 @@ nav .barra__busqueda .boton__busqueda {
   margin-top: 5%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
-      grid-template-areas: "nota1 nota2" "nota3 nota4";
-  margin-left: 10%;
+      grid-template-areas: "nota1 nota2 nota3" "nota4 nota5 nota6";
 }
 
 .grid:nth-child(1) {
@@ -933,27 +932,131 @@ nav .barra__busqueda .boton__busqueda {
 }
 
 .grid:nth-child(3) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
   grid-area: nota3;
 }
 
 .grid:nth-child(4) {
   -ms-grid-row: 2;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   grid-area: nota4;
 }
 
-.grid .nota__fotos {
-  width: 100%;
+.grid:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: nota5;
 }
 
-.grid .nota__titulos {
+.grid:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: nota6;
+}
+
+.grid .nota__toscano {
+  background-image: url(pablotoscano.png);
+  opacity: 0.5;
+}
+
+.grid .card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__toscano:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nota__toscano:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__gardel {
+  background-image: url(casa-gardel.png);
+  opacity: 0.5;
+}
+
+.card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__gardel:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nota__gardel:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__arsenico {
+  background-image: url(carlos-casares.jpg);
+  opacity: 0.5;
+}
+
+.card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__arsenico:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nota__arsenico:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__boxeo {
+  background-image: url(almagro-boxing.png);
+  opacity: 0.5;
+}
+
+.card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__boxeo:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nota__boxeo:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__titulos {
   font-size: 30px;
   font-weight: 700;
 }
 
-.grid .nota__texto {
+.nota__texto {
   font-size: 20px;
 }
 

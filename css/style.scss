@@ -96,12 +96,11 @@ nav{
 .grid{
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
-    "nota1 nota2"
-    "nota3 nota4";
-    margin-left: 10%;
+    "nota1 nota2 nota3"
+    "nota4 nota5 nota6";
     &:nth-child(1){
         grid-area: nota1;
     }
@@ -114,8 +113,80 @@ nav{
     &:nth-child(4){
         grid-area: nota4;
     }
-    .nota__fotos{
-        width: 100%;
+    &:nth-child(5){
+        grid-area: nota5;
+    }
+    &:nth-child(6){
+        grid-area: nota6;
+    }
+    .nota__toscano{
+        background-image: url(pablotoscano.png);
+        opacity: 0.5;}
+        .card-text{
+            text-align: center;
+            margin-top: 20%;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+    .nota__toscano:hover{
+        opacity: 1;
+        transition: 0.5s;
+        .card-text{
+            visibility: hidden;
+            transition: 0s;
+        }
+    }
+    .nota__gardel{
+        background-image: url(casa-gardel.png);
+        opacity: 0.5;}
+        .card-text{
+            text-align: center;
+            margin-top: 20%;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+        }
+    .nota__gardel:hover{
+        opacity: 1;
+        transition: 0.5s;
+        .card-text{
+            visibility: hidden;
+            transition: 0s;
+        }
+    }
+    .nota__arsenico{
+        background-image: url(carlos-casares.jpg);
+        opacity: 0.5;}
+        .card-text{
+            text-align: center;
+            margin-top: 20%;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+        }
+    .nota__arsenico:hover{
+        opacity: 1;
+        transition: 0.5s;
+        .card-text{
+            visibility: hidden;
+            transition: 0s;
+        }
+    }
+    .nota__boxeo{
+        background-image: url(almagro-boxing.png);
+        opacity: 0.5;}
+        .card-text{
+            text-align: center;
+            margin-top: 20%;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+        }
+    .nota__boxeo:hover{
+        opacity: 1;
+        transition: 0.5s;
+        .card-text{
+            visibility: hidden;
+            transition: 0s;
+        }
     }
     .nota__titulos{
         font-size: 30px;
@@ -124,7 +195,6 @@ nav{
     .nota__texto{
         font-size: 20px;
     }
-}
 
 #whatsapp{
     display: flex;
