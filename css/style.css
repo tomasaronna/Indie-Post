@@ -957,107 +957,150 @@ nav .barra__busqueda .boton__busqueda {
 
 .grid .nota__toscano {
   background-image: url(pablotoscano.png);
-  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
-.grid .card-text {
+.grid .nota__toscano .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid .nota__toscano .card-text {
   text-align: center;
   margin-top: 20%;
-  color: white;
+  color: black;
   font-family: 'Oswald', sans-serif;
 }
 
-.nota__toscano:hover {
+.grid .nota__toscano:hover {
   opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
-.nota__toscano:hover .card-text {
+.grid .nota__toscano:hover .card-text {
   visibility: hidden;
   -webkit-transition: 0s;
   transition: 0s;
 }
 
-.nota__gardel {
+.grid .nota__toscano:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
+}
+
+.grid .nota__gardel {
   background-image: url(casa-gardel.png);
-  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
-.card-text {
+.grid .nota__gardel .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid .nota__gardel .card-text {
   text-align: center;
   margin-top: 20%;
-  color: white;
+  color: black;
   font-family: 'Oswald', sans-serif;
 }
 
-.nota__gardel:hover {
+.grid .nota__gardel:hover {
   opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
-.nota__gardel:hover .card-text {
+.grid .nota__gardel:hover .card-text {
   visibility: hidden;
   -webkit-transition: 0s;
   transition: 0s;
 }
 
-.nota__arsenico {
+.grid .nota__gardel:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
+}
+
+.grid .nota__arsenico {
   background-image: url(carlos-casares.jpg);
-  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
-.card-text {
+.grid .nota__arsenico .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid .nota__arsenico .card-text {
   text-align: center;
   margin-top: 20%;
-  color: white;
+  color: black;
   font-family: 'Oswald', sans-serif;
 }
 
-.nota__arsenico:hover {
+.grid .nota__arsenico:hover {
   opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
-.nota__arsenico:hover .card-text {
+.grid .nota__arsenico:hover .card-text {
   visibility: hidden;
   -webkit-transition: 0s;
   transition: 0s;
 }
 
-.nota__boxeo {
+.grid .nota__arsenico:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
+}
+
+.grid .nota__boxeo {
   background-image: url(almagro-boxing.png);
-  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
-.card-text {
+.grid .nota__boxeo .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid .nota__boxeo .card-text {
   text-align: center;
   margin-top: 20%;
-  color: white;
+  color: black;
   font-family: 'Oswald', sans-serif;
 }
 
-.nota__boxeo:hover {
+.grid .nota__boxeo:hover {
   opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
-.nota__boxeo:hover .card-text {
+.grid .nota__boxeo:hover .card-text {
   visibility: hidden;
   -webkit-transition: 0s;
   transition: 0s;
 }
 
-.nota__titulos {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.nota__texto {
-  font-size: 20px;
+.grid .nota__boxeo:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
 }
 
 #whatsapp {
