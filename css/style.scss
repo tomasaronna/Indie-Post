@@ -122,6 +122,11 @@ nav{
     .nota__toscano{
         background-image: url(pablotoscano.png);
         filter: grayscale(100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 0;
+        border-style: none;
         .card-img-overlay{
             background-color: rgba(255, 255, 255, 0.5);
         }
@@ -136,6 +141,7 @@ nav{
         opacity: 1;
         transition: 0.5s;
         filter: grayscale(0%);
+        
         .card-text{
             visibility: hidden;
             transition: 0s;
@@ -148,6 +154,11 @@ nav{
     .nota__gardel{
         background-image: url(casa-gardel.png);
         filter: grayscale(100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 0;
+        border-style: none;
         .card-img-overlay{
             background-color: rgba(255, 255, 255, 0.5);
         }
@@ -174,6 +185,11 @@ nav{
     .nota__arsenico{
         background-image: url(carlos-casares.jpg);
         filter: grayscale(100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 0;
+        border-style: none;
         .card-img-overlay{
             background-color: rgba(255, 255, 255, 0.5);
         }
@@ -200,6 +216,11 @@ nav{
     .nota__boxeo{
         background-image: url(almagro-boxing.png);
         filter: grayscale(100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 0;
+        border-style: none;
         .card-img-overlay{
             background-color: rgba(255, 255, 255, 0.5);
         }

@@ -959,6 +959,11 @@ nav .barra__busqueda .boton__busqueda {
   background-image: url(pablotoscano.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 0;
+  border-style: none;
 }
 
 .grid .nota__toscano .card-img-overlay {
@@ -996,6 +1001,11 @@ nav .barra__busqueda .boton__busqueda {
   background-image: url(casa-gardel.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 0;
+  border-style: none;
 }
 
 .grid .nota__gardel .card-img-overlay {
@@ -1033,6 +1043,11 @@ nav .barra__busqueda .boton__busqueda {
   background-image: url(carlos-casares.jpg);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 0;
+  border-style: none;
 }
 
 .grid .nota__arsenico .card-img-overlay {
@@ -1070,6 +1085,11 @@ nav .barra__busqueda .boton__busqueda {
   background-image: url(almagro-boxing.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 0;
+  border-style: none;
 }
 
 .grid .nota__boxeo .card-img-overlay {
