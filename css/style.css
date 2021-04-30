@@ -979,8 +979,8 @@ nav .barra__busqueda .boton__busqueda {
 
 .grid .nota__toscano:hover {
   opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
@@ -1105,8 +1105,8 @@ nav .barra__busqueda .boton__busqueda {
 
 .grid .nota__boxeo:hover {
   opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
@@ -1123,19 +1123,46 @@ nav .barra__busqueda .boton__busqueda {
   visibility: hidden;
 }
 
-#whatsapp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  width: 70px;
-  height: 70px;
-  position: fixed;
-  bottom: 0;
-  margin-left: 93%;
-  margin-bottom: 5%;
+.grid .nota__tops {
+  background-image: url(goat-simulator.jpg);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 0;
+  border-style: none;
+}
+
+.grid .nota__tops .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid .nota__tops .card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.grid .nota__tops:hover {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.grid .nota__tops:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.grid .nota__tops:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
 }
 
 footer {
@@ -1143,20 +1170,21 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
   background-color: gray;
   height: 150px;
 }
 
 footer .footloose {
-  margin-top: 60px;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
 footer .redes {
   margin-top: 35px;
   margin-left: 25px;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 footer #facebook {
@@ -1172,6 +1200,12 @@ footer #instagram {
 }
 
 footer #twitter {
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+footer #whatsapp {
   margin: 20px;
   width: 30px;
   height: 30px;

@@ -139,7 +139,7 @@ nav{
     }
     .nota__toscano:hover{
         opacity: 1;
-        transition: 0.5s;
+        transition: 1s;
         filter: grayscale(0%);
         
         .card-text{
@@ -213,6 +213,7 @@ nav{
             visibility: hidden;
         }
     }
+
     .nota__boxeo{
         background-image: url(almagro-boxing.png);
         filter: grayscale(100%);
@@ -233,8 +234,41 @@ nav{
     }
     .nota__boxeo:hover{
         opacity: 1;
-        transition: 0.5s;
+        transition: 1s;
         filter: grayscale(0%);
+        
+        .card-text{
+            visibility: hidden;
+            transition: 0s;
+        }
+        .card-img-overlay{
+            transition: 0s;
+            visibility: hidden;
+        }
+    }
+    .nota__tops{
+        background-image: url(goat-simulator.jpg);
+        filter: grayscale(100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 0;
+        border-style: none;
+        .card-img-overlay{
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        .card-text{
+            text-align: center;
+            margin-top: 20%;
+            color: black;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+    .nota__tops:hover{
+        opacity: 1;
+        transition: 1s;
+        filter: grayscale(0%);
+        
         .card-text{
             visibility: hidden;
             transition: 0s;
@@ -245,29 +279,20 @@ nav{
         }
     }
 }
-#whatsapp{
-    display: flex;
-    justify-content: right;
-    width: 70px;
-    height: 70px;
-    position: fixed;
-    bottom:0;
-    margin-left: 93%;
-    margin-bottom: 5%;
-}
 
 footer{
     margin-top: 5%;
     display: flex;
-    justify-content: right;
     background-color: gray;
     height: 150px;
     .footloose {
-        margin-top: 60px;
+        margin-top: 2%;
+        margin-left: 2%;
     }
     .redes{
         margin-top: 35px;
         margin-left: 25px;
+        justify-content: right;
     }
     
     #facebook{
@@ -282,6 +307,11 @@ footer{
         height: 30px;
     }
     #twitter{
+        margin: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    #whatsapp{
         margin: 20px;
         width: 30px;
         height: 30px;
