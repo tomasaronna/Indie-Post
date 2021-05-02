@@ -541,16 +541,45 @@ body {
 }
 
 .nota__arsenico {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
-  margin: 2%;
+  background-image: url(carlos-casares.jpg);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 0;
+  border-style: none;
 }
 
-.nota__arsenico .foto__casares {
-  margin-top: 10%;
-  width: 550px;
-  height: 309px;
+.nota__arsenico .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nota__arsenico .card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__arsenico:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.nota__arsenico:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__arsenico:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
 }
 
 footer {
