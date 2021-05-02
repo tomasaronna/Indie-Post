@@ -422,15 +422,45 @@ body {
 }
 
 .nota__toscano {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
-  margin: 2%;
+  background-image: url(pablotoscano.png);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 0;
+  border-style: none;
 }
 
-.nota__toscano .foto__toscano {
-  width: 550px;
-  height: 309px;
+.nota__toscano .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nota__toscano .card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__toscano:hover {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.nota__toscano:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__toscano:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
 }
 
 footer {
