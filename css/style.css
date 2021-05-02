@@ -689,6 +689,48 @@ body {
   background-color: #c9c1c1;
 }
 
+.nota__tops {
+  background-image: url(goat-simulator.jpg);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 0;
+  border-style: none;
+}
+
+.nota__tops .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nota__tops .card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__tops:hover {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.nota__tops:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__tops:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
+}
+
 footer {
   margin-top: 5%;
   display: -webkit-box;
