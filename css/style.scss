@@ -278,6 +278,38 @@ nav{
             visibility: hidden;
         }
     }
+    .nota__siria{
+        background-image: url(guerra-siria.png);
+        filter: grayscale(100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 0;
+        border-style: none;
+        .card-img-overlay{
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        .card-text{
+            text-align: center;
+            margin-top: 20%;
+            color: black;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+    .nota__siria:hover{
+        opacity: 1;
+        transition: 1s;
+        filter: grayscale(0%);
+        
+        .card-text{
+            visibility: hidden;
+            transition: 0s;
+        }
+        .card-img-overlay{
+            transition: 0s;
+            visibility: hidden;
+        }
+    }
 }
 
 footer{
