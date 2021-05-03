@@ -1,19 +1,5 @@
 $tipo: 'Oswald', sans-serif;
 
-
-body{
-    background-color: $colorbody;
-}
-header{
-    background-color: $colorheader;
-    display: flex;
-    justify-content: center;
-    height: 500px;
-    .logo__pagina{
-        height: $height1;
-    }
-}
-
 main{
     .encabezado{
         margin-top: 2%;
