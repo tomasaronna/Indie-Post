@@ -919,25 +919,6 @@ footer #twitter {
   height: 30px;
 }
 
-body {
-  background-color: #c9c1c1;
-}
-
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
-}
-
 main {
   display: block;
 }
@@ -986,28 +967,6 @@ main .respuesta {
 main .trailer {
   width: 30%;
   margin-left: 20%;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-}
-
-body {
-  background-color: #c9c1c1;
-}
-
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
 }
 
 main .encabezado {
@@ -1019,6 +978,17 @@ main p {
   font-family: "Oswald", sans-serif;
   width: 624px;
   margin-top: 2%;
+  margin-left: 20%;
+}
+
+main .recuadro {
+  font-family: "Oswald", sans-serif;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+main .video-recuadro {
+  width: 30%;
   margin-left: 20%;
 }
 
