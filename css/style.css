@@ -1010,34 +1010,9 @@ header .logo__pagina {
   height: 500px;
 }
 
-main {
-  display: block;
-}
-
 main .encabezado {
   margin-top: 2%;
   margin-left: 20%;
-}
-
-main .titulo {
-  font-family: "Oswald", sans-serif;
-  width: 624px;
-  margin-top: 2%;
-  margin-left: 20%;
-}
-
-main .foto-casares {
-  margin-left: 20%;
-}
-
-main .epigrafe {
-  font-family: "Oswald", sans-serif;
-  margin-left: 20%;
-}
-
-main .creditos {
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
 }
 
 main p {

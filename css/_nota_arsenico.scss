@@ -23,27 +23,9 @@ header{
 }
 
 main{
-    display: block;
     .encabezado{
         margin-top: 2%;
         margin-left: 20%; 
-    }
-    .titulo{
-        font-family: $tipo;
-        width: 624px;
-        margin-top: 2%;
-        margin-left: 20%;
-    }
-    .foto-casares{
-        margin-left: 20%;
-    }
-    .epigrafe{
-        font-family: $tipo;
-        margin-left: 20%;
-    }
-    .creditos{
-        font-family: $tipo;
-        font-weight: 700;
     }
     p{
         font-family: $tipo;
