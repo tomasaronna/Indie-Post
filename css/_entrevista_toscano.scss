@@ -1,21 +1,4 @@
-$colorbody: rgb(201, 193, 193);
-$colorheader: black;
-$color-nav-y-footer: gray;
-$height1: 500px;
 $tipo: 'Oswald', sans-serif;
-
-body{
-    background-color: $colorbody;
-}
-header{
-    background-color: $colorheader;
-    display: flex;
-    justify-content: center;
-    height: 500px;
-    .logo__pagina{
-        height: $height1;
-    }
-}
 
 main{
     display: block;
