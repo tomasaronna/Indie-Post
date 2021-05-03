@@ -5,6 +5,7 @@
 @import "sociedad";
 @import "tops";
 @import "tecnologia";
+@import "entrevista_toscano";
 
 $colorbody: rgb(201, 193, 193);
 $colorheader: black;
@@ -18,8 +19,8 @@ $tipo: 'Oswald', sans-serif;
 $titulos: 32px;
 
 @mixin tamaño-notas{
-    width: $widht2;
-    height: $height1;
+    margin-left: 7em;
+    margin-right: 7em;
 }
 
 body{
@@ -30,6 +31,7 @@ header{
     display: flex;
     justify-content: center;
     height: 500px;
+    width: 100%;
     .logo__pagina{
         height: $height1;
     }
@@ -37,42 +39,31 @@ header{
 
 nav{
     background-color: $color-nav-y-footer;
-    width: 100%;
-    height: 105px;
-    display: flex;
-    .menu__nav{
-        padding: 20px;
-        margin: 30px;
-        bottom: 8px;
-        border: ridge;
-        border-color: white;
-        background-color: black;
-        color: white;
-        font-size: 18px;
-        font-family: 'Oswald', sans-serif;
-        justify-content: center;
-        .menu__dropdown{
-            border: ridge;
-            border-color: white;
-            background-color: black;
-            color: white;
-            font-size: 18px;
-            font-family: 'Oswald', sans-serif;
-        }
+    font-size: 20px;
+    display: inline-block;
+    z-index: 1;
+    height: 125px;
+    a{
+        color: black !important;
     }
-    .barra__busqueda{
-        display: flex;
-        flex-wrap: nowrap;
-        font-family: 'Oswald', sans-serif;
-        .boton__busqueda{
-            border-color: black;
-            background-color: black;
-            color:white;
-            border-radius: .25rem;
-        }
+    a:hover{
+        background-color: black;
+        color: white !important;
+    }
+    .menu{
+        margin-left: 3%;
+    }
+    .dropdown-menu{
+        background-color: unset;
+        border: unset;
+        z-index: 1;
+        
+    }
+    .dropdown-item:hover{
+        background-color: black !important;
+        color: white !important;
     }
 }
-
 .slider__carrusel{
     width: 50%;
     margin-top: 2%;
@@ -118,6 +109,9 @@ nav{
     }
     &:nth-child(6){
         grid-area: nota6;
+    }
+    a{
+        text-decoration: none;
     }
     .nota__toscano{
         background-image: url(pablotoscano.png);
@@ -337,6 +331,7 @@ footer{
     display: flex;
     background-color: gray;
     height: 150px;
+    width: 100%;
     .footloose {
         margin-top: 2%;
         margin-left: 2%;
