@@ -19,11 +19,6 @@ $padding1: 50px;
 $tipo: 'Oswald', sans-serif;
 $titulos: 32px;
 
-@mixin tamaño-notas{
-    margin-left: 7em;
-    margin-right: 7em;
-}
-
 body{
     background-color: $colorbody;
 }
