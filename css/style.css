@@ -1016,6 +1016,7 @@ header .logo__pagina {
 nav {
   background-color: gray;
   font-size: 20px;
+  font-family: "Oswald", sans-serif;
   display: inline-block;
   z-index: 1;
   height: 125px;
