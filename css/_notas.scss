@@ -1,7 +1,4 @@
 $tipo: 'Oswald', sans-serif;
-@mixin margen-tops {
-    margin-left: 3% !important;
-}
 
 main{
     display: block;
@@ -70,6 +67,6 @@ ol li{
     font-family: $tipo;
     margin-left: 20%;
     p, .foto, h3{
-        @include margen-tops;
+        margin-left: 3% !important;
     }
 }
