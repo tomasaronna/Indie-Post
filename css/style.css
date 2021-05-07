@@ -109,327 +109,105 @@ footer #twitter {
   height: 30px;
 }
 
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
-}
-
-nav {
-  background-color: gray;
-  width: 100%;
-  height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav .menu__nav {
-  padding: 20px;
-  margin: 30px;
-  bottom: 8px;
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-nav .menu__nav .menu__dropdown {
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda .boton__busqueda {
-  border-color: black;
-  background-color: black;
-  color: white;
-  border-radius: .25rem;
-}
-
-body {
-  background-color: #c9c1c1;
-}
-
 .nota__gardel {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
-  margin: 2%;
-}
-
-.nota__gardel .foto__gardel {
-  margin-top: 10%;
-  width: 550px;
-  height: 309px;
-}
-
-footer {
-  margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  background-color: gray;
-  height: 150px;
-}
-
-footer .footloose {
-  margin-top: 60px;
-}
-
-footer .redes {
-  margin-top: 35px;
-  margin-left: 25px;
-}
-
-footer #facebook {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #instagram {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #twitter {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
-}
-
-nav {
-  background-color: gray;
-  width: 100%;
-  height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav .menu__nav {
-  padding: 20px;
-  margin: 30px;
-  bottom: 8px;
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-nav .menu__nav .menu__dropdown {
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda .boton__busqueda {
-  border-color: black;
-  background-color: black;
-  color: white;
-  border-radius: .25rem;
-}
-
-body {
-  background-color: #c9c1c1;
-}
-
-.nota__almagro {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
-  margin: 2%;
-}
-
-.nota__almagro .foto__gimnasio {
-  margin-top: 10%;
-  width: 550px;
-  height: 309px;
-}
-
-.nota__almagro .titulo__almagro {
-  font-size: 32px;
-}
-
-footer {
-  margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  background-color: gray;
-  height: 150px;
-}
-
-footer .footloose {
-  margin-top: 60px;
-}
-
-footer .redes {
-  margin-top: 35px;
-  margin-left: 25px;
-}
-
-footer #facebook {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #instagram {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #twitter {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
-}
-
-nav {
-  background-color: gray;
-  width: 100%;
-  height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav .menu__nav {
-  padding: 20px;
-  margin: 30px;
-  bottom: 8px;
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-nav .menu__nav .menu__dropdown {
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda .boton__busqueda {
-  border-color: black;
-  background-color: black;
-  color: white;
-  border-radius: .25rem;
-}
-
-body {
-  background-color: #c9c1c1;
-}
-
-.nota__toscano {
-  background-image: url(pablotoscano.png);
+  background-image: url(../imagenes/casa-gardel.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  margin: 0 0;
   border-style: none;
+  width: 600px;
+  height: 500px;
+  font-family: "Oswald", sans-serif;
+  margin: 2%;
+}
+
+.nota__gardel .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nota__gardel .card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__gardel:hover {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.nota__gardel:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__gardel:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
+}
+
+.nota__boxeo {
+  background-image: url(../imagenes/almagro-boxing.png);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: none;
+  width: 600px;
+  height: 500px;
+  font-family: "Oswald", sans-serif;
+  margin: 2%;
+}
+
+.nota__boxeo .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nota__boxeo .card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nota__boxeo:hover {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.nota__boxeo:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.nota__boxeo:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
+}
+
+.nota__toscano {
+  background-image: url(../imagenes/pablo-toscano.png);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: none;
+  width: 600px;
+  height: 500px;
+  font-family: "Oswald", sans-serif;
+  margin: 2%;
 }
 
 .nota__toscano .card-img-overlay {
@@ -463,122 +241,17 @@ body {
   visibility: hidden;
 }
 
-footer {
-  margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  background-color: gray;
-  height: 150px;
-}
-
-footer .footloose {
-  margin-top: 60px;
-}
-
-footer .redes {
-  margin-top: 35px;
-  margin-left: 25px;
-}
-
-footer #facebook {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #instagram {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #twitter {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
-}
-
-nav {
-  background-color: gray;
-  width: 100%;
-  height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav .menu__nav {
-  padding: 20px;
-  margin: 30px;
-  bottom: 8px;
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-nav .menu__nav .menu__dropdown {
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda .boton__busqueda {
-  border-color: black;
-  background-color: black;
-  color: white;
-  border-radius: .25rem;
-}
-
-body {
-  background-color: #c9c1c1;
-}
-
 .nota__arsenico {
-  background-image: url(carlos-casares.jpg);
+  background-image: url(../imagenes/carlos-casares.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  margin: 0 0;
   border-style: none;
+  width: 600px;
+  height: 500px;
+  font-family: "Oswald", sans-serif;
+  margin: 2%;
 }
 
 .nota__arsenico .card-img-overlay {
@@ -594,8 +267,8 @@ body {
 
 .nota__arsenico:hover {
   opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
@@ -612,122 +285,17 @@ body {
   visibility: hidden;
 }
 
-footer {
-  margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  background-color: gray;
-  height: 150px;
-}
-
-footer .footloose {
-  margin-top: 60px;
-}
-
-footer .redes {
-  margin-top: 35px;
-  margin-left: 25px;
-}
-
-footer #facebook {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #instagram {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #twitter {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
-}
-
-nav {
-  background-color: gray;
-  width: 100%;
-  height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav .menu__nav {
-  padding: 20px;
-  margin: 30px;
-  bottom: 8px;
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-nav .menu__nav .menu__dropdown {
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda .boton__busqueda {
-  border-color: black;
-  background-color: black;
-  color: white;
-  border-radius: .25rem;
-}
-
-body {
-  background-color: #c9c1c1;
-}
-
 .nota__tops {
-  background-image: url(goat-simulator.jpg);
+  background-image: url(../imagenes/goat-simulator.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  margin: 0 0;
   border-style: none;
+  width: 600px;
+  height: 500px;
+  font-family: "Oswald", sans-serif;
+  margin: 2%;
 }
 
 .nota__tops .card-img-overlay {
@@ -759,164 +327,6 @@ body {
   -webkit-transition: 0s;
   transition: 0s;
   visibility: hidden;
-}
-
-footer {
-  margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  background-color: gray;
-  height: 150px;
-}
-
-footer .footloose {
-  margin-top: 60px;
-}
-
-footer .redes {
-  margin-top: 35px;
-  margin-left: 25px;
-}
-
-footer #facebook {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #instagram {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #twitter {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
-}
-
-nav {
-  background-color: gray;
-  width: 100%;
-  height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav .menu__nav {
-  padding: 20px;
-  margin: 30px;
-  bottom: 8px;
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-nav .menu__nav .menu__dropdown {
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda .boton__busqueda {
-  border-color: black;
-  background-color: black;
-  color: white;
-  border-radius: .25rem;
-}
-
-body {
-  background-color: #c9c1c1;
-}
-
-.nota__toscano {
-  width: 600px;
-  height: 500px;
-  font-family: "Oswald", sans-serif;
-  margin: 2%;
-}
-
-.nota__toscano .foto__toscano {
-  width: 550px;
-  height: 309px;
-}
-
-footer {
-  margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  background-color: gray;
-  height: 150px;
-}
-
-footer .footloose {
-  margin-top: 60px;
-}
-
-footer .redes {
-  margin-top: 35px;
-  margin-left: 25px;
-}
-
-footer #facebook {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #instagram {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #twitter {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
 }
 
 main {
@@ -993,6 +403,15 @@ main p {
   margin-left: 20%;
 }
 
+ol li {
+  font-family: "Oswald", sans-serif;
+  margin-left: 20%;
+}
+
+ol li p, ol li .foto, ol li h3 {
+  margin-left: 3% !important;
+}
+
 body {
   background-color: #c9c1c1;
 }
@@ -1047,20 +466,17 @@ nav .dropdown-item:hover {
 }
 
 .slider__carrusel {
-  width: 50%;
+  width: 35%;
+  height: 70%;
   margin-top: 2%;
   margin-right: auto;
   margin-left: auto;
 }
 
 .slider__carrusel .texto__carrusel {
-  color: white;
-  font-family: 'Oswald', sans-serif;
-}
-
-.slider__carrusel .texto__gardel {
   color: black;
   font-family: 'Oswald', sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .slider__carrusel .notas {
@@ -1076,43 +492,43 @@ nav .dropdown-item:hover {
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
-      grid-template-areas: "nota1 nota2 nota3" "nota4 nota5 nota6";
+      grid-template-areas: "nota__toscano nota__gardel nota__arsenico" "nota__boxeo nota__tops nota__siria";
 }
 
 .grid:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  grid-area: nota1;
+  grid-area: nota__toscano;
 }
 
 .grid:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
-  grid-area: nota2;
+  grid-area: nota__gardel;
 }
 
 .grid:nth-child(3) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
-  grid-area: nota3;
+  grid-area: nota__arsenico;
 }
 
 .grid:nth-child(4) {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  grid-area: nota4;
+  grid-area: nota__boxeo;
 }
 
 .grid:nth-child(5) {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
-  grid-area: nota5;
+  grid-area: nota__tops;
 }
 
 .grid:nth-child(6) {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
-  grid-area: nota6;
+  grid-area: nota__siria;
 }
 
 .grid a {
@@ -1120,7 +536,7 @@ nav .dropdown-item:hover {
 }
 
 .grid .nota__toscano {
-  background-image: url(pablotoscano.png);
+  background-image: url(../imagenes/pablo-toscano.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
@@ -1162,12 +578,13 @@ nav .dropdown-item:hover {
 }
 
 .grid .nota__gardel {
-  background-image: url(casa-gardel.png);
+  background-image: url(../imagenes/casa-gardel.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  height: 100%;
   margin: 0 0;
   border-style: none;
 }
@@ -1185,8 +602,8 @@ nav .dropdown-item:hover {
 
 .grid .nota__gardel:hover {
   opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
@@ -1204,7 +621,7 @@ nav .dropdown-item:hover {
 }
 
 .grid .nota__arsenico {
-  background-image: url(carlos-casares.jpg);
+  background-image: url(../imagenes/carlos-casares.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
@@ -1252,7 +669,7 @@ nav .dropdown-item:hover {
 }
 
 .grid .nota__boxeo {
-  background-image: url(almagro-boxing.png);
+  background-image: url(../imagenes/almagro-boxing.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
@@ -1300,7 +717,7 @@ nav .dropdown-item:hover {
 }
 
 .grid .nota__tops {
-  background-image: url(goat-simulator.jpg);
+  background-image: url(../imagenes/goat-simulator.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
@@ -1348,7 +765,7 @@ nav .dropdown-item:hover {
 }
 
 .grid .nota__siria {
-  background-image: url(guerra-siria.png);
+  background-image: url(../imagenes/guerra-siria.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;

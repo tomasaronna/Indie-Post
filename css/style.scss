@@ -4,19 +4,16 @@
 @import "entrevistas";
 @import "sociedad";
 @import "tops";
-@import "tecnologia";
 @import "notas";
 
 $colorbody: rgb(201, 193, 193);
 $colorheader: black;
 $color-nav-y-footer: gray;
-$widht1: 550px;
-$widht2: 600px;
 $height1: 500px;
 $height2: 309px;
-$padding1: 50px;
 $tipo: 'Oswald', sans-serif;
-$titulos: 32px;
+$widht1: 550px;
+$widht2: 600px;
 
 body{
     background-color: $colorbody;
@@ -61,18 +58,16 @@ nav{
     }
 }
 .slider__carrusel{
-    width: 50%;
+    width: 35%;
+    height: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
     
     .texto__carrusel{
-        color: white;
-        font-family: 'Oswald', sans-serif;
-    }
-    .texto__gardel{
         color: black;
         font-family: 'Oswald', sans-serif;
+        background-color: rgba(255, 255, 255, 0.5);
     }
     .notas{
         width: 550px;
@@ -86,31 +81,31 @@ nav{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
-    "nota1 nota2 nota3"
-    "nota4 nota5 nota6";
+    "nota__toscano nota__gardel nota__arsenico"
+    "nota__boxeo nota__tops nota__siria";
     &:nth-child(1){
-        grid-area: nota1;
+        grid-area: nota__toscano;
     }
     &:nth-child(2){
-        grid-area: nota2;   
+        grid-area: nota__gardel;   
     }
     &:nth-child(3){
-        grid-area: nota3;
+        grid-area: nota__arsenico;
     }
     &:nth-child(4){
-        grid-area: nota4;
+        grid-area: nota__boxeo;
     }
     &:nth-child(5){
-        grid-area: nota5;
+        grid-area: nota__tops;
     }
     &:nth-child(6){
-        grid-area: nota6;
+        grid-area: nota__siria;
     }
     a{
         text-decoration: none;
     }
     .nota__toscano{
-        background-image: url(pablotoscano.png);
+        background-image: url(../imagenes/pablo-toscano.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
@@ -142,11 +137,12 @@ nav{
         }
     }
     .nota__gardel{
-        background-image: url(casa-gardel.png);
+        background-image: url(../imagenes/casa-gardel.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
+        height: 100%;
         margin: 0 0;
         border-style: none;
         .card-img-overlay{
@@ -161,8 +157,9 @@ nav{
     }
     .nota__gardel:hover{
         opacity: 1;
-        transition: 0.5s;
+        transition: 1s;
         filter: grayscale(0%);
+        
         .card-text{
             visibility: hidden;
             transition: 0s;
@@ -173,7 +170,7 @@ nav{
         }
     }
     .nota__arsenico{
-        background-image: url(carlos-casares.jpg);
+        background-image: url(../imagenes/carlos-casares.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
@@ -210,7 +207,7 @@ nav{
     }
 
     .nota__boxeo{
-        background-image: url(almagro-boxing.png);
+        background-image: url(../imagenes/almagro-boxing.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
@@ -247,7 +244,7 @@ nav{
         }
     }
     .nota__tops{
-        background-image: url(goat-simulator.jpg);
+        background-image: url(../imagenes/goat-simulator.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
@@ -284,7 +281,7 @@ nav{
         }
     }
     .nota__siria{
-        background-image: url(guerra-siria.png);
+        background-image: url(../imagenes/guerra-siria.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
