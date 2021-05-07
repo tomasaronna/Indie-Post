@@ -1,80 +1,17 @@
-$colorbody: rgb(201, 193, 193);
-$colorheader: black;
-$color-nav-y-footer: gray;
-$widht1: 550px;
 $widht2: 600px;
 $height1: 500px;
-$height2: 309px;
-$padding1: 50px;
 $tipo: 'Oswald', sans-serif;
-$titulos: 32px;
-
-// header
-header{
-    background-color: $colorheader;
-    display: flex;
-    justify-content: center;
-    height: 500px;
-    .logo__pagina{
-        height: $height1;
-    }
-}
-
-//menu
-nav{
-    background-color: $color-nav-y-footer;
-    width: 100%;
-    height: 105px;
-    display: flex;
-    .menu__nav{
-        padding: 20px;
-        margin: 30px;
-        bottom: 8px;
-        border: ridge;
-        border-color: white;
-        background-color: black;
-        color: white;
-        font-size: 18px;
-        font-family: 'Oswald', sans-serif;
-        justify-content: center;
-        .menu__dropdown{
-            border: ridge;
-            border-color: white;
-            background-color: black;
-            color: white;
-            font-size: 18px;
-            font-family: 'Oswald', sans-serif;
-        }
-    }
-    .barra__busqueda{
-        display: flex;
-        flex-wrap: nowrap;
-        font-family: 'Oswald', sans-serif;
-        .boton__busqueda{
-            border-color: black;
-            background-color: black;
-            color:white;
-            border-radius: .25rem;
-        }
-    }
-}
-
-//body
-
-body{
-    background-color: $colorbody;
-}
-
-//notas
 
 .nota__tops{
-    background-image: url(goat-simulator.jpg);
+    background-image: url(../imagenes/goat-simulator.png);
     filter: grayscale(100%);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    margin: 0 0;
     border-style: none;
+    width: $widht2;
+    height: $height1;
+    font-family: $tipo;
+    margin: 2%;
     .card-img-overlay{
         background-color: rgba(255, 255, 255, 0.5);
     }
@@ -97,39 +34,5 @@ body{
     .card-img-overlay{
         transition: 0s;
         visibility: hidden;
-    }
-}
-
-//footer
-
-footer{
-    margin-top: 5%;
-    display: flex;
-    justify-content: right;
-    background-color: gray;
-    height: 150px;
-    .footloose {
-        margin-top: 60px;
-    }
-    .redes{
-        margin-top: 35px;
-        margin-left: 25px;
-    }
-    
-    #facebook{
-        margin: 20px;
-        width: 30px;
-        height: 30px;
-    }
-    
-    #instagram{
-        margin: 20px;
-        width: 30px;
-        height: 30px;
-    }
-    #twitter{
-        margin: 20px;
-        width: 30px;
-        height: 30px;
     }
 }

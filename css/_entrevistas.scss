@@ -1,15 +1,17 @@
-
+$widht2: 600px;
+$height1: 500px;
 $tipo: 'Oswald', sans-serif;
-$titulos: 32px;
 
 .nota__toscano{
     background-image: url(../imagenes/pablo-toscano.png);
     filter: grayscale(100%);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    margin: 0 0;
     border-style: none;
+    width: $widht2;
+    height: $height1;
+    font-family: $tipo;
+    margin: 2%;
     .card-img-overlay{
         background-color: rgba(255, 255, 255, 0.5);
     }
