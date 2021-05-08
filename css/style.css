@@ -126,7 +126,36 @@
   visibility: hidden;
 }
 
-.nota__arsenico {
+.grid-container {
+  margin-top: 5%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "nota__arsenico nota__siria vacio";
+}
+
+.grid-container:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: nota__arsenico;
+}
+
+.grid-container:nth-child(2) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: nota__siria;
+}
+
+.grid-container:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: vacio;
+}
+
+.grid-container .nota__arsenico {
   background-image: url(../imagenes/carlos-casares.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
@@ -138,18 +167,18 @@
   margin: 2%;
 }
 
-.nota__arsenico .card-img-overlay {
+.grid-container .nota__arsenico .card-img-overlay {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.nota__arsenico .card-text {
+.grid-container .nota__arsenico .card-text {
   text-align: center;
   margin-top: 20%;
   color: black;
   font-family: 'Oswald', sans-serif;
 }
 
-.nota__arsenico:hover {
+.grid-container .nota__arsenico:hover {
   opacity: 1;
   -webkit-transition: 1s;
   transition: 1s;
@@ -157,13 +186,56 @@
           filter: grayscale(0%);
 }
 
-.nota__arsenico:hover .card-text {
+.grid-container .nota__arsenico:hover .card-text {
   visibility: hidden;
   -webkit-transition: 0s;
   transition: 0s;
 }
 
-.nota__arsenico:hover .card-img-overlay {
+.grid-container .nota__arsenico:hover .card-img-overlay {
+  -webkit-transition: 0s;
+  transition: 0s;
+  visibility: hidden;
+}
+
+.grid-container .nota__siria {
+  background-image: url(../imagenes/guerra-siria.png);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: none;
+  width: 600px;
+  height: 500px;
+  margin: 2%;
+}
+
+.grid-container .nota__siria .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid-container .nota__siria .card-text {
+  text-align: center;
+  margin-top: 20%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.grid-container .nota__siria:hover {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.grid-container .nota__siria:hover .card-text {
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.grid-container .nota__siria:hover .card-img-overlay {
   -webkit-transition: 0s;
   transition: 0s;
   visibility: hidden;
@@ -707,7 +779,7 @@ footer {
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (1fr)[1];
       grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "footlose vacio redes";
+      grid-template-areas: "footlose redes buscador";
 }
 
 footer:nth-child(1) {
@@ -719,13 +791,13 @@ footer:nth-child(1) {
 footer:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
-  grid-area: vacio;
+  grid-area: redes;
 }
 
 footer:nth-child(3) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
-  grid-area: redes;
+  grid-area: buscador;
 }
 
 footer .footloose {

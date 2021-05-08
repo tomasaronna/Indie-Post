@@ -332,15 +332,15 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: 
-    "footlose vacio redes";
+    "footlose redes buscador";
     &:nth-child(1){
         grid-area: footlose;
     }
     &:nth-child(2){
-        grid-area: vacio;
+        grid-area: redes;
     }
     &:nth-child(3){
-        grid-area: redes;
+        grid-area: buscador;
     }
 
     .footloose {
