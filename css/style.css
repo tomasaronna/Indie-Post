@@ -294,7 +294,6 @@ footer #twitter {
   border-style: none;
   width: 600px;
   height: 500px;
-  font-family: "Oswald", sans-serif;
   margin: 2%;
 }
 
@@ -810,6 +809,11 @@ nav .dropdown-item:hover {
   -webkit-transition: 0s;
   transition: 0s;
   visibility: hidden;
+}
+
+.secciones {
+  max-width: 600px;
+  margin: 2%;
 }
 
 footer {
