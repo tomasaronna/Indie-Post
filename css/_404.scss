@@ -1,12 +1,13 @@
-
 .error{
-        margin: 3%;
+    margin: 3%;
+    font-family: $tipo;
+}   
+.link{
+    margin-left: 3%;
+    .boton{
+        border-color: black;
+        background-color: black;
+        color:white;
+        border-radius: .25rem;
     }
-    .link{
-        text-decoration: none;
-        color: black;
-        max-width: 177px !important;
-        .volver{
-            margin-left: 3%;
-        }
-    }
+}
