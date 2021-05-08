@@ -363,6 +363,20 @@ ol li {
   margin-left: 20%;
 }
 
+.error {
+  margin: 3%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  max-width: 177px !important;
+}
+
+.link .volver {
+  margin-left: 3%;
+}
+
 body {
   background-color: #c9c1c1;
 }
