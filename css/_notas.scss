@@ -1,5 +1,12 @@
 $tipo: 'Oswald', sans-serif;
+$color-nav-y-footer: gray;
 
+html{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
 main{
     display: block;
     .titulo{
@@ -66,10 +73,47 @@ main{
 ol li{
     font-family: $tipo;
     margin-left: 20%;
-    
-    // p, .foto, h3{
-    //     margin-left: 3% !important;
-    // }
+    p, .foto, h3{
+        margin-left: 3% !important;
+    }
+}
 
+@media screen and (max-width: 415px){
+    nav{
+        background-color: $color-nav-y-footer;
+        font-size: 20px;
+        font-family: $tipo;
+        display: inline-block;
+        z-index: 1;
+        height: 125px;
+        .navl-ink{
+            color: black !important;
+            background-color: rgba(128, 128, 128, 0.800);
+        }
+        .nav-link:hover{
+            background-color: black;
+            color: white !important;
+        }
+        .dropdown-menu{
+            background-color: unset;
+            border: unset;
+            z-index: 1;
+            background-color: rgba(128, 128, 128, 0.800);
+        }
+        .dropdown-item{
+            background-color: rgba(128, 128, 128, 0.800);
+        }
+        .dropdown-item:hover{
+            background-color: black !important;
+            color: white !important;
+        }
+    }
+    .titulo{
+    margin-left: 2%;
+    }
+    .foto{
+        margin-left: 2%;
+        width: 100%;
+    }
 }
 

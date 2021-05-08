@@ -284,6 +284,14 @@
   visibility: hidden;
 }
 
+html {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
 main {
   display: block;
 }
@@ -363,18 +371,63 @@ ol li {
   margin-left: 20%;
 }
 
+ol li p, ol li .foto, ol li h3 {
+  margin-left: 3% !important;
+}
+
+@media screen and (max-width: 415px) {
+  nav {
+    background-color: gray;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    z-index: 1;
+    height: 125px;
+  }
+  nav .navl-ink {
+    color: black !important;
+    background-color: rgba(128, 128, 128, 0.8);
+  }
+  nav .nav-link:hover {
+    background-color: black;
+    color: white !important;
+  }
+  nav .dropdown-menu {
+    background-color: unset;
+    border: unset;
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.8);
+  }
+  nav .dropdown-item {
+    background-color: rgba(128, 128, 128, 0.8);
+  }
+  nav .dropdown-item:hover {
+    background-color: black !important;
+    color: white !important;
+  }
+  .titulo {
+    margin-left: 2%;
+  }
+  .foto {
+    margin-left: 2%;
+    width: 100%;
+  }
+}
+
 .error {
   margin: 3%;
+  font-family: "Oswald", sans-serif;
 }
 
 .link {
-  text-decoration: none;
-  color: black;
-  max-width: 177px !important;
+  margin-left: 3%;
 }
 
-.link .volver {
-  margin-left: 3%;
+.link .boton {
+  border-color: black;
+  background-color: black;
+  color: white;
+  border-radius: .25rem;
 }
 
 body {
@@ -401,16 +454,24 @@ nav {
   background-color: gray;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
-  display: inline-block;
-  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 10;
   height: 125px;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+  border-bottom-style: solid;
+  border-width: 0.5px;
 }
 
-nav a {
+nav .nav-link {
   color: black !important;
+  background-color: rgba(128, 128, 128, 0.8);
 }
 
-nav a:hover {
+nav .nav-link:hover {
   background-color: black;
   color: white !important;
 }
@@ -423,6 +484,11 @@ nav .dropdown-menu {
   background-color: unset;
   border: unset;
   z-index: 1;
+  background-color: gray;
+}
+
+nav .dropdown-item {
+  color: black;
 }
 
 nav .dropdown-item:hover {
@@ -508,7 +574,8 @@ nav .dropdown-item:hover {
   background-size: cover;
   width: 100%;
   margin: 0 0;
-  border-style: none;
+  border-style: solid;
+  border-color: black;
 }
 
 .grid .nota__toscano .card-img-overlay {
@@ -551,7 +618,8 @@ nav .dropdown-item:hover {
   width: 100%;
   height: 100%;
   margin: 0 0;
-  border-style: none;
+  border-style: solid;
+  border-color: black;
 }
 
 .grid .nota__gardel .card-img-overlay {
@@ -593,7 +661,8 @@ nav .dropdown-item:hover {
   background-size: cover;
   width: 100%;
   margin: 0 0;
-  border-style: none;
+  border-style: solid;
+  border-color: black;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -641,7 +710,8 @@ nav .dropdown-item:hover {
   background-size: cover;
   width: 100%;
   margin: 0 0;
-  border-style: none;
+  border-style: solid;
+  border-color: black;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -689,7 +759,8 @@ nav .dropdown-item:hover {
   background-size: cover;
   width: 100%;
   margin: 0 0;
-  border-style: none;
+  border-style: solid;
+  border-color: black;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -737,7 +808,8 @@ nav .dropdown-item:hover {
   background-size: cover;
   width: 100%;
   margin: 0 0;
-  border-style: none;
+  border-style: solid;
+  border-color: black;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -852,6 +924,7 @@ footer .buscador .barra__busqueda {
 }
 
 footer .buscador .barra__busqueda .boton__busqueda {
+  height: 100%;
   margin-left: 0.625rem;
   border-color: black;
   background-color: black;

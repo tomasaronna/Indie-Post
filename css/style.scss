@@ -33,13 +33,18 @@ nav{
     background-color: $color-nav-y-footer;
     font-size: 20px;
     font-family: $tipo;
-    display: inline-block;
-    z-index: 1;
+    display: flex;
+    z-index: 10;
     height: 125px;
-    a{
+    position: sticky !important;
+    top: 0;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    .nav-link{
         color: black !important;
+        background-color: rgba(128, 128, 128, 0.800);
     }
-    a:hover{
+    .nav-link:hover{
         background-color: black;
         color: white !important;
     }
@@ -50,7 +55,10 @@ nav{
         background-color: unset;
         border: unset;
         z-index: 1;
-        
+        background-color: $color-nav-y-footer;
+    }
+    .dropdown-item{
+        color: black;
     }
     .dropdown-item:hover{
         background-color: black !important;
@@ -111,7 +119,8 @@ nav{
         background-size: cover;
         width: 100%;
         margin: 0 0;
-        border-style: none;
+        border-style: solid;
+        border-color: black;
         .card-img-overlay{
             background-color: rgba(255, 255, 255, 0.5);
         }
@@ -144,7 +153,8 @@ nav{
         width: 100%;
         height: 100%;
         margin: 0 0;
-        border-style: none;
+        border-style: solid;
+        border-color: black;
         .card-img-overlay{
             background-color: rgba(255, 255, 255, 0.5);
         }
@@ -176,7 +186,8 @@ nav{
         background-size: cover;
         width: 100%;
         margin: 0 0;
-        border-style: none;
+        border-style: solid;
+        border-color: black;
         height: 100%;
         object-fit: cover;
         .card-img-overlay{
@@ -213,7 +224,8 @@ nav{
         background-size: cover;
         width: 100%;
         margin: 0 0;
-        border-style: none;
+        border-style: solid;
+        border-color: black;
         height: 100%;
         object-fit: cover;
         .card-img-overlay{
@@ -250,7 +262,8 @@ nav{
         background-size: cover;
         width: 100%;
         margin: 0 0;
-        border-style: none;
+        border-style: solid;
+        border-color: black;
         height: 100%;
         object-fit: cover;
         .card-img-overlay{
@@ -287,7 +300,8 @@ nav{
         background-size: cover;
         width: 100%;
         margin: 0 0;
-        border-style: none;
+        border-style: solid;
+        border-color: black;
         height: 100%;
         object-fit: cover;
         .card-img-overlay{
@@ -370,6 +384,7 @@ footer{
             flex-wrap: nowrap !important;
             font-family: 'Oswald', sans-serif;
             .boton__busqueda{
+                height: 100%;
                 margin-left: 0.625rem;
                 border-color: black;
                 background-color: black;
