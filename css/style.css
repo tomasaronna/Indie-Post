@@ -1,114 +1,3 @@
-header {
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 500px;
-}
-
-header .logo__pagina {
-  height: 500px;
-}
-
-nav {
-  background-color: gray;
-  width: 100%;
-  height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav .menu__nav {
-  padding: 20px;
-  margin: 30px;
-  bottom: 8px;
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-nav .menu__nav .menu__dropdown {
-  border: ridge;
-  border-color: white;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav .barra__busqueda .boton__busqueda {
-  border-color: black;
-  background-color: black;
-  color: white;
-  border-radius: .25rem;
-}
-
-body {
-  background-color: #c9c1c1;
-}
-
-.formulario {
-  padding-left: 5%;
-}
-
-footer {
-  margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  background-color: gray;
-  height: 150px;
-}
-
-footer .footloose {
-  margin-top: 60px;
-}
-
-footer .redes {
-  margin-top: 35px;
-  margin-left: 25px;
-}
-
-footer #facebook {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #instagram {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
-footer #twitter {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-}
-
 .nota__gardel {
   background-image: url(../imagenes/casa-gardel.png);
   -webkit-filter: grayscale(100%);
@@ -809,48 +698,84 @@ nav .dropdown-item:hover {
 
 footer {
   margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   background-color: gray;
   height: 150px;
   width: 100%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "footlose vacio redes";
+}
+
+footer:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: footlose;
+}
+
+footer:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: vacio;
+}
+
+footer:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: redes;
 }
 
 footer .footloose {
-  margin-top: 2%;
-  margin-left: 2%;
+  margin: auto;
 }
 
 footer .redes {
-  margin-top: 35px;
-  margin-left: 25px;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  margin: auto;
 }
 
-footer #facebook {
+footer .redes .redes__footer {
+  text-align: center;
+}
+
+footer .redes .red {
   margin: 20px;
+}
+
+footer .redes .red .red-social {
   width: 30px;
   height: 30px;
 }
 
-footer #instagram {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
+footer .buscador {
+  margin: auto;
 }
 
-footer #twitter {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
+footer .buscador .barra__busqueda {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15rem;
+  height: 3rem;
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+  font-family: 'Oswald', sans-serif;
 }
 
-footer #whatsapp {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
+footer .buscador .barra__busqueda .boton__busqueda {
+  margin-left: 0.625rem;
+  border-color: black;
+  background-color: black;
+  color: white;
+  border-radius: .25rem;
+}
+
+.formulario {
+  margin-top: 3%;
+  padding-left: 5%;
+  font-family: "Oswald", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
