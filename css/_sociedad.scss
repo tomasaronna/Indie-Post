@@ -1,97 +1,112 @@
 $widht2: 600px;
-$width3: 650px;
 $height1: 500px;
-$tipo: 'Oswald', sans-serif;
+$tipo: "Oswald", sans-serif;
 
 .grid-container{
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-template-areas:  
-    "nota__arsenico nota__siria vacio";
-    &:nth-child(1){
+    grid-template-areas: "nota__arsenico nota__siria vacio";
+    &:nth-child(1) {
         grid-area: nota__arsenico;
     }
-    &:nth-child(2){
+    &:nth-child(2) {
         grid-area: nota__siria;
     }
-    .nota__arsenico{
+    &:nth-child(3) {
+        grid-area: vacio;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nota__arsenico {
         background-image: url(../imagenes/casares-card.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
+        width: 37.5rem;
+        margin-left: 2%;
         border-style: none;
-        width: $widht2;
-        height: $height1;
-        margin: 2%;
-        .card-img-overlay{
+        border-radius: 0;
+        height: 31.25rem;
+        object-fit: cover;
+        .card-img-overlay {
             background-color: rgba(255, 255, 255, 0.5);
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
         }
-        .card-text{
+        .card-text {
             text-align: center;
             margin-top: 20%;
             color: black;
-            font-family: 'Oswald', sans-serif;
+            font-family: "Oswald", sans-serif;
         }
     }
-    .nota__arsenico:hover{
+    .nota__arsenico:hover {
         opacity: 1;
-        transition: 1s;
+        transition: 0.5s;
         filter: grayscale(0%);
-        
-        .card-text{
+        .card-text {
             visibility: hidden;
             transition: 0s;
         }
-        .card-img-overlay{
+        .card-img-overlay {
             transition: 0s;
             visibility: hidden;
         }
     }
-    .nota__siria{
+    .nota__siria {
         background-image: url(../imagenes/guerra-siria.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
+        width: 37.5rem;
+        margin: 0 0;
         border-style: none;
-        width: $widht2;
-        height: $height1;
-        margin: 2%;
-        .card-img-overlay{
+        border-radius: 0;
+        height: 31.25rem;
+        object-fit: cover;
+        .card-img-overlay {
             background-color: rgba(255, 255, 255, 0.5);
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
         }
-        .card-text{
+        .card-text {
             text-align: center;
             margin-top: 20%;
             color: black;
-            font-family: 'Oswald', sans-serif;
+            font-family: "Oswald", sans-serif;
         }
     }
-    .nota__siria:hover{
+    .nota__siria:hover {
         opacity: 1;
         transition: 1s;
         filter: grayscale(0%);
-        
-        .card-text{
+
+        .card-text {
             visibility: hidden;
             transition: 0s;
         }
-        .card-img-overlay{
+        .card-img-overlay {
             transition: 0s;
             visibility: hidden;
         }
     }
 }
 
-@media screen and (max-width: 415px){
-    .grid-container{
+@media screen and (max-width: 415px) {
+    .grid-container {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas:
-        "nota__arsenico"
-        "nota__siria";
-        .nota__arsenico{
+            "nota__arsenico"
+            "nota__siria";
+        .nota__arsenico {
             background-image: url(../imagenes/casares-card-415.png);
         }
     }

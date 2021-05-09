@@ -7,30 +7,35 @@ $tipo: 'Oswald', sans-serif;
     filter: grayscale(100%);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 37.5rem;
+    margin-left: 2%;
     border-style: none;
-    width: $widht2;
-    height: $height1;
-    margin: 2%;
-    .card-img-overlay{
+    border-radius: 0;
+    height: 31.25rem;
+    object-fit: cover;
+    .card-img-overlay {
         background-color: rgba(255, 255, 255, 0.5);
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
     }
-    .card-text{
+    .card-text {
         text-align: center;
         margin-top: 20%;
         color: black;
-        font-family: 'Oswald', sans-serif;
+        font-family: "Oswald", sans-serif;
     }
 }
-.nota__boxeo:hover{
+.nota__boxeo:hover {
     opacity: 1;
-    transition: 1s;
+    transition: 0.5s;
     filter: grayscale(0%);
-    
-    .card-text{
+    .card-text {
         visibility: hidden;
         transition: 0s;
     }
-    .card-img-overlay{
+    .card-img-overlay {
         transition: 0s;
         visibility: hidden;
     }
