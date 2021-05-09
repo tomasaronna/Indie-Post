@@ -130,8 +130,8 @@
   margin-top: 5%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   -ms-grid-rows: (1fr)[1];
       grid-template-rows: repeat(1, 1fr);
       grid-template-areas: "nota__arsenico nota__siria vacio";
@@ -149,14 +149,8 @@
   grid-area: nota__siria;
 }
 
-.grid-container:nth-child(3) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: vacio;
-}
-
 .grid-container .nota__arsenico {
-  background-image: url(../imagenes/carlos-casares.png);
+  background-image: url(../imagenes/casares-card.png);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   background-repeat: no-repeat;
@@ -239,6 +233,19 @@
   -webkit-transition: 0s;
   transition: 0s;
   visibility: hidden;
+}
+
+@media screen and (max-width: 415px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "nota__arsenico" "nota__siria";
+  }
+  .grid-container .nota__arsenico {
+    background-image: url(../imagenes/casares-card-415.png);
+  }
 }
 
 .nota__tops {
@@ -980,6 +987,33 @@ footer .buscador .barra__busqueda .error .boton__busqueda {
     background-color: black;
     color: white;
     border-radius: .25rem;
+  }
+  .secciones {
+    margin: 5% 0% 0% 0%;
+  }
+  .secciones .nota__toscano {
+    width: 100%;
+    margin: 0px;
+  }
+  .secciones .nota__gardel {
+    width: 100%;
+    margin: 0px;
+  }
+  .secciones .nota__arsenico {
+    width: 100%;
+    margin: 0px;
+  }
+  .secciones .nota__boxeo {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .secciones .nota__tops {
+    width: 100%;
+    margin: 0px;
+  }
+  .secciones .nota__siria {
+    width: 100%;
+    margin: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */

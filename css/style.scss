@@ -14,6 +14,7 @@ $height2: 309px;
 $tipo: 'Oswald', sans-serif;
 $widht1: 550px;
 $widht2: 600px;
+$width3: 650px;
 
 body{
     background-color: $colorbody;
@@ -472,6 +473,33 @@ footer{
                     border-radius: .25rem;
                 } 
             }
+        }
+    }
+    .secciones{
+        margin: 5% 0% 0% 0%;
+        .nota__toscano{
+            width: 100%;
+            margin: 0px;
+        }
+        .nota__gardel{
+            width: 100%;
+            margin: 0px;
+        }
+        .nota__arsenico{
+            width: 100%;
+            margin: 0px;
+        }
+        .nota__boxeo{
+            width: 100%;
+            margin-left: 0px;
+        }
+        .nota__tops{
+            width: 100%;
+            margin: 0px;
+        }
+        .nota__siria{
+            width: 100%;
+            margin: 0px;
         }
     }
 }
