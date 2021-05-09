@@ -369,6 +369,7 @@ main p {
 ol li {
   font-family: "Oswald", sans-serif;
   margin-left: 20%;
+  list-style: none;
 }
 
 ol li p, ol li .foto, ol li h3 {
@@ -376,7 +377,7 @@ ol li p, ol li .foto, ol li h3 {
 }
 
 @media screen and (max-width: 415px) {
-  .titulo {
+  .titulo, .foto, .trailer, .video-recuadro, .epigrafe, .creditos, .pregunta, .respuesta, .encabezado, p {
     margin-left: 10% !important;
     width: 80% !important;
   }
@@ -452,7 +453,7 @@ nav .dropdown-menu {
   background-color: unset;
   border: unset;
   z-index: 1;
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0);
 }
 
 nav .dropdown-item {
