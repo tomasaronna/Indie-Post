@@ -405,11 +405,7 @@ ol li p, ol li .foto, ol li h3 {
     background-color: black !important;
     color: white !important;
   }
-  .titulo {
-    margin-left: 2%;
-  }
   .foto {
-    margin-left: 2%;
     width: 100%;
   }
 }
@@ -923,9 +919,14 @@ footer .buscador .barra__busqueda {
   font-family: 'Oswald', sans-serif;
 }
 
-footer .buscador .barra__busqueda .boton__busqueda {
-  height: 100%;
+footer .buscador .barra__busqueda .error {
+  margin: auto;
   margin-left: 0.625rem;
+  height: 100%;
+}
+
+footer .buscador .barra__busqueda .error .boton__busqueda {
+  height: 100%;
   border-color: black;
   background-color: black;
   color: white;
@@ -936,5 +937,39 @@ footer .buscador .barra__busqueda .boton__busqueda {
   margin-top: 3%;
   padding-left: 5%;
   font-family: "Oswald", sans-serif;
+}
+
+@media screen and (max-width: 415px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  footer .footloose, footer .redes {
+    margin-top: 10%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .buscador {
+    margin-top: 10%;
+  }
+  footer .buscador .error {
+    margin-left: 0.625rem;
+  }
+  footer .buscador .error .boton__busqueda {
+    margin-top: 0% !important;
+    height: 100%;
+    border-color: black;
+    background-color: black;
+    color: white;
+    border-radius: .25rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
