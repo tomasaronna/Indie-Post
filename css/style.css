@@ -294,6 +294,18 @@
   }
 }
 
+@media screen and (max-width: 779px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "nota__arsenico" "nota__siria";
+    -webkit-transform: translateX(14%);
+            transform: translateX(14%);
+  }
+}
+
 .nota__tops {
   background-image: url(../imagenes/goat-simulator.png);
   -webkit-filter: grayscale(100%);
@@ -426,20 +438,20 @@ main p {
   margin-left: 20%;
 }
 
-ol li {
-  font-family: "Oswald", sans-serif;
-  margin-left: 20%;
-  list-style: none;
-}
-
-ol li p, ol li .foto, ol li h3 {
-  margin-left: 3% !important;
-}
-
 @media screen and (max-width: 415px) {
-  .titulo, .foto, .trailer, .video-recuadro, .epigrafe, .creditos, .pregunta, .respuesta, .encabezado, p {
+  main .titulo, main .foto, main .trailer, main .video-recuadro, main .epigrafe, main .creditos, main .pregunta, main .respuesta, main .encabezado, main p {
     margin-left: 10% !important;
     width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  main .titulo, main .foto, main .trailer, main .video-recuadro, main .epigrafe, main .creditos, main .pregunta, main .respuesta, main .encabezado, main p {
+    margin-left: 5% !important;
+    width: 70% !important;
+  }
+  main .respuesta, main .epigrafe, main .encabezado, main .creditos, main p {
+    font-size: 1.2rem;
   }
 }
 
@@ -898,8 +910,8 @@ footer {
   display: -ms-grid;
   display: grid;
   background-color: gray;
-  height: 150px;
   width: 100%;
+  height: 9.375rem;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (1fr)[1];
@@ -998,16 +1010,13 @@ footer .buscador .barra__busqueda .error .boton__busqueda {
   nav .dropdown-item {
     color: black;
   }
-  nav #linea-blanca {
-    margin-top: 0% !important;
-  }
   .slider__carrusel {
     width: 100%;
     height: 50% !important;
     margin-top: 5%;
   }
   .slider__carrusel .notas {
-    height: 100% !important;
+    height: 100%;
   }
   .grid {
     -ms-grid-columns: (1fr)[1];
@@ -1042,7 +1051,13 @@ footer .buscador .barra__busqueda .error .boton__busqueda {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  footer .redes {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
   footer .buscador {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
     margin-top: 10%;
   }
   footer .buscador .error {
@@ -1082,6 +1097,182 @@ footer .buscador .barra__busqueda .error .boton__busqueda {
   .secciones .nota__siria {
     width: 100%;
     margin: 0px;
+  }
+}
+
+#Consulta {
+  max-width: 21.875rem;
+}
+
+@media screen and (min-width: 416px) and (max-width: 779px) {
+  nav .menu {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  nav .nav-link {
+    padding-left: 2% !important;
+  }
+  nav .dropdown-menu {
+    padding: 0%;
+    background-color: rgba(128, 128, 128, 0) !important;
+    margin-top: 0px !important;
+  }
+  nav .dropdown-item {
+    color: black;
+  }
+  .slider__carrusel {
+    width: 100%;
+    height: 50% !important;
+    margin-top: 5%;
+    font-size: 1.25rem;
+  }
+  .slider__carrusel .notas {
+    height: 100%;
+  }
+  .grid {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: "nota__toscano" "nota__gardel" "nota__arsenico" "nota__boxeo" "nota__tops" "nota__siria";
+  }
+  .grid .card-text h1 {
+    font-size: 2.5rem;
+  }
+  .grid .card-text h2 {
+    font-size: 2.5rem;
+  }
+  .grid .card-text p {
+    font-size: 1.5rem;
+  }
+  .secciones {
+    margin: 5% 0% 0% 0%;
+  }
+  .secciones .nota__toscano {
+    width: 100%;
+    margin: 0px;
+    -webkit-transform: translateX(14%);
+            transform: translateX(14%);
+  }
+  .secciones .nota__toscano .card-text h1 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__toscano .card-text h2 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__toscano .card-text p {
+    font-size: 1.5rem;
+  }
+  .secciones .nota__gardel {
+    width: 100%;
+    margin: 0px;
+    -webkit-transform: translateX(14%);
+            transform: translateX(14%);
+  }
+  .secciones .nota__gardel .card-text h1 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__gardel .card-text h2 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__gardel .card-text p {
+    font-size: 1.5rem;
+  }
+  .secciones .nota__arsenico {
+    width: 100%;
+    margin: 0px;
+  }
+  .secciones .nota__arsenico .card-text h1 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__arsenico .card-text h2 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__arsenico .card-text p {
+    font-size: 1.5rem;
+  }
+  .secciones .nota__boxeo {
+    width: 100%;
+    -webkit-transform: translateX(14%);
+            transform: translateX(14%);
+  }
+  .secciones .nota__boxeo .card-text h1 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__boxeo .card-text h2 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__boxeo .card-text p {
+    font-size: 1.5rem;
+  }
+  .secciones .nota__tops {
+    width: 100%;
+    margin: 0px;
+    -webkit-transform: translateX(14%);
+            transform: translateX(14%);
+  }
+  .secciones .nota__tops .card-text h1 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__tops .card-text h2 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__tops .card-text p {
+    font-size: 1.5rem;
+  }
+  .secciones .nota__siria {
+    width: 100%;
+    margin: 0px;
+  }
+  .secciones .nota__siria .card-text h1 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__siria .card-text h2 {
+    font-size: 2.5rem;
+  }
+  .secciones .nota__siria .card-text p {
+    font-size: 1.5rem;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  footer .footloose, footer .redes {
+    margin-top: 10%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .redes {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  footer .buscador {
+    margin-top: 10%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  footer .buscador .error {
+    margin-left: 0.625rem;
+  }
+  footer .buscador .error .boton__busqueda {
+    margin-top: 0% !important;
+    height: 100%;
+    border-color: black;
+    background-color: black;
+    color: white;
+    border-radius: .25rem;
+  }
+  #Consulta {
+    max-width: 700px;
   }
 }
 /*# sourceMappingURL=style.css.map */

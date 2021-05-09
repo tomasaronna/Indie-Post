@@ -109,3 +109,14 @@ $tipo: "Oswald", sans-serif;
         }
     }
 }
+
+@media screen and (max-width: 779px){
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "nota__arsenico"
+        "nota__siria";
+        transform: translateX(14%);
+    }
+}
