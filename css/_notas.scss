@@ -11,7 +11,7 @@ main{
     display: block;
     .titulo{
         font-family: $tipo;
-        width: 624px;
+        width: 39rem;
         margin-top: 2%;  
         margin-left: 20%;
 
@@ -23,7 +23,7 @@ main{
     }
     .epigrafe{
         font-family: $tipo;
-        width: 624px;
+        width: 39rem;
         margin-top: 2%;
         margin-left: 20%;
     }
@@ -35,16 +35,16 @@ main{
         font-family: $tipo;
         font-weight: 700;
         font-size: 1.5rem;
-        width: 624px;
+        width: 39rem;
         margin-left: 20%;
-        line-height: 2em;
+        line-height: 2rem;
     }
     .respuesta{
         font-family: $tipo;
         font-size: 1rem;
-        width: 624px;  
+        width: 39rem;  
         margin-left: 20%;
-        line-height: 2em;
+        line-height: 2rem;
     }
     .trailer{
         width: 30%;
@@ -65,13 +65,13 @@ main{
     }
     p{
         font-family: $tipo;
-        width: 624px;
+        width: 39rem;
         margin-top: 2%;
         margin-left: 20%;
     }
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 479px){
     main{
         .titulo, .foto, .trailer, .video-recuadro, .epigrafe, .creditos, .pregunta, .respuesta, .encabezado, p{
             margin-left: 10% !important;
@@ -80,7 +80,7 @@ main{
 
     }
 }
-@media screen and (max-width: 779px){
+@media screen and (min-width: 480px) and (max-width: 779px){
     main{
         .titulo, .foto, .trailer, .video-recuadro, .epigrafe, .creditos, .pregunta, .respuesta, .encabezado, p{
             margin-left: 5% !important;

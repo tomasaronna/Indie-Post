@@ -9,12 +9,12 @@
 $colorbody: rgb(201, 193, 193);
 $colorheader: black;
 $color-nav-y-footer: gray;
-$height1: 500px;
-$height2: 309px;
+$height1: 31.25rem;
+$height2: 19.313rem;
 $tipo: 'Oswald', sans-serif;
-$widht1: 550px;
-$widht2: 600px;
-$width3: 650px;
+$widht1: 34.375rem;
+$widht2: 37.5rem;
+$width3: 40.625rem;
 
 body{
     background-color: $colorbody;
@@ -23,7 +23,7 @@ header{
     background-color: $colorheader;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     .logo__pagina{
         height: $height1;
@@ -32,15 +32,15 @@ header{
 
 nav{
     background-color: $color-nav-y-footer;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: $tipo;
     display: flex;
     z-index: 10;
-    height: 125px;
+    height: 7.813rem;
     position: sticky !important;
     top: 0;
     border-bottom-style: solid;
-    border-width: 0.5px;
+    border-width: 0.031rem;
     .nav-link{
         color: black !important;
         background-color: rgba(128, 128, 128, 0.800);
@@ -79,8 +79,8 @@ nav{
         background-color: rgba(255, 255, 255, 0.5);
     }
     .notas{
-        width: 550px;
-        height: 500px;
+        width: 34.375;
+        height: 31.25rem;
     }
 }
 
@@ -377,10 +377,10 @@ footer{
             text-align: center;
         }
         .red{
-            margin: 20px;
+            margin: 1.25rem;
             .red-social{
-                width: 30px;
-                height: 30px;
+                width: 1.875rem;
+                height: 1.875rem;
             }
         }
     }
@@ -415,7 +415,7 @@ footer{
     font-family: $tipo;
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 479px){
     nav{
         .menu{
             margin-left: 0%;
@@ -523,7 +523,7 @@ footer{
     max-width: 21.875rem;
 }
 
-@media screen and (min-width:416px) and (max-width: 779px){
+@media screen and (min-width:480px) and (max-width: 779px){
     nav{
         .menu{
             margin-left: 0%;
@@ -702,6 +702,6 @@ footer{
         }
     }
     #Consulta{
-        max-width: 700px;
+        max-width: 43.75rem;
     }
 }
