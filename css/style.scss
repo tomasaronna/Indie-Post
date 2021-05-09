@@ -180,7 +180,7 @@ nav{
         }
     }
     .nota__arsenico{
-        background-image: url(../imagenes/carlos-casares.png);
+        background-image: url(../imagenes/casares-card.png);
         filter: grayscale(100%);
         background-repeat: no-repeat;
         background-size: cover;
@@ -406,10 +406,49 @@ footer{
 }
 
 @media screen and (max-width: 415px){
-    
-    
-    
-    
+    nav{
+        .menu{
+            margin-left: 0%;
+        }
+        .nav-link{
+            padding-left: 2% !important;
+        }
+        .dropdown-menu{
+            padding: 0%;
+            background-color: rgba(128, 128, 128, 0) !important;
+        }
+        .dropdown-item{
+            color: black;
+        }
+    }
+    .slider__carrusel{
+        width: 100%;
+        height: 50% !important;
+        margin-top: 5%; 
+        .notas{
+            height: 100% !important;
+        }
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "nota__toscano"
+        "nota__gardel"
+        "nota__arsenico"
+        "nota__boxeo"
+        "nota__tops"
+        "nota__siria";
+        .nota__gardel{
+            background-image: url(../imagenes/gardel-card-415.png);
+        }
+        .nota__arsenico{
+            background-image: url(../imagenes/casares-card-415.png);
+        }
+        .nota__tops{
+            background-image: url(../imagenes/cabra-card-415.png);
+        }
+    }
     
     footer{
         display: flex;
