@@ -97,15 +97,26 @@ $tipo: "Oswald", sans-serif;
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 479px){
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas:
-            "nota__arsenico"
-            "nota__siria";
+        "nota__arsenico"
+        "nota__siria";
         .nota__arsenico {
             background-image: url(../imagenes/casares-card-415.png);
         }
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 779px){
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "nota__arsenico"
+        "nota__siria";
+        transform: translateX(14%);
     }
 }

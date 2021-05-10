@@ -9,12 +9,12 @@
 $colorbody: rgb(201, 193, 193);
 $colorheader: black;
 $color-nav-y-footer: gray;
-$height1: 500px;
-$height2: 309px;
+$height1: 31.25rem;
+$height2: 19.313rem;
 $tipo: 'Oswald', sans-serif;
-$widht1: 550px;
-$widht2: 600px;
-$width3: 650px;
+$widht1: 34.375rem;
+$widht2: 37.5rem;
+$width3: 40.625rem;
 
 body{
     background-color: $colorbody;
@@ -23,7 +23,7 @@ header{
     background-color: $colorheader;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     .logo__pagina{
         height: $height1;
@@ -32,15 +32,15 @@ header{
 
 nav{
     background-color: $color-nav-y-footer;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: $tipo;
     display: flex;
     z-index: 10;
-    height: 125px;
+    height: 7.813rem;
     position: sticky !important;
     top: 0;
     border-bottom-style: solid;
-    border-width: 0.5px;
+    border-width: 0.031rem;
     .nav-link{
         color: black !important;
         background-color: rgba(128, 128, 128, 0.800);
@@ -79,8 +79,8 @@ nav{
         background-color: rgba(255, 255, 255, 0.5);
     }
     .notas{
-        width: 550px;
-        height: 500px;
+        width: 34.375;
+        height: 31.25rem;
     }
 }
 
@@ -352,8 +352,8 @@ footer{
     margin-top: 5%;
     display: grid;
     background-color: gray;
-    height: 150px;
     width: 100%;
+    height: 9.375rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: 
@@ -377,10 +377,10 @@ footer{
             text-align: center;
         }
         .red{
-            margin: 20px;
+            margin: 1.25rem;
             .red-social{
-                width: 30px;
-                height: 30px;
+                width: 1.875rem;
+                height: 1.875rem;
             }
         }
     }
@@ -415,7 +415,7 @@ footer{
     font-family: $tipo;
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 479px){
     nav{
         .menu{
             margin-left: 0%;
@@ -432,16 +432,13 @@ footer{
         .dropdown-item{
             color: black;
         }
-        #linea-blanca{
-            margin-top: 0% !important;
-        }
     }
     .slider__carrusel{
         width: 100%;
         height: 50% !important;
         margin-top: 5%; 
         .notas{
-            height: 100% !important;
+            height: 100%;
         }
     }
     .grid{
@@ -474,7 +471,11 @@ footer{
             margin-top: 10%;
             justify-content: center;
         }
+        .redes{
+            transform: translateY(-50%);
+        }
         .buscador{
+            transform: translateY(-50%);
             margin-top: 10%;
             .error{
                 margin-left: 0.625rem;
@@ -515,5 +516,192 @@ footer{
             width: 100%;
             margin: 0px;
         }
+    }
+}
+
+#Consulta{
+    max-width: 21.875rem;
+}
+
+@media screen and (min-width:480px) and (max-width: 779px){
+    nav{
+        .menu{
+            margin-left: 0%;
+            margin-top: 0%;
+        }
+        .nav-link{
+            padding-left: 2% !important;
+        }
+        .dropdown-menu{
+            padding: 0%;
+            background-color: rgba(128, 128, 128, 0) !important;
+            margin-top: 0px !important;
+        }
+        .dropdown-item{
+            color: black;
+        }
+    }
+
+    .slider__carrusel{
+        width: 100%;
+        height: 50% !important;
+        margin-top: 5%; 
+        font-size: 1.25rem;
+        .notas{
+            height: 100%;
+        }
+    }
+
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "nota__toscano"
+        "nota__gardel"
+        "nota__arsenico"
+        "nota__boxeo"
+        "nota__tops"
+        "nota__siria";
+        .card-text{
+            h1{
+                font-size: 2.5rem;
+            }
+            h2{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+        }  
+    }
+
+    .secciones{
+        margin: 5% 0% 0% 0%;  
+        .nota__toscano{
+            width: 100%;
+            margin: 0px;
+            transform: translateX(14%);
+            .card-text{
+                h1{
+                    font-size: 2.5rem;
+                }
+                h2{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }  
+        }
+        .nota__gardel{
+            width: 100%;
+            margin: 0px;
+            transform: translateX(14%);
+            .card-text{
+                h1{
+                    font-size: 2.5rem;
+                }
+                h2{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }  
+        }
+        .nota__arsenico{
+            width: 100%;
+            margin: 0px;
+            .card-text{
+                h1{
+                    font-size: 2.5rem;
+                }
+                h2{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }  
+        }
+        .nota__boxeo{
+            width: 100%;
+            transform: translateX(14%);
+            .card-text{
+                h1{
+                    font-size: 2.5rem;
+                }
+                h2{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }  
+        }
+        .nota__tops{
+            width: 100%;
+            margin: 0px;
+            transform: translateX(14%);
+            .card-text{
+                h1{
+                    font-size: 2.5rem;
+                }
+                h2{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }  
+        }
+        .nota__siria{
+            width: 100%;
+            margin: 0px;
+            .card-text{
+                h1{
+                    font-size: 2.5rem;
+                }
+                h2{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }  
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        margin-bottom: 0%;
+        .footloose, .redes{
+            margin-top: 10%;
+            justify-content: center;
+        }
+        .redes{
+            transform: translateY(-50%);
+        }
+        .buscador{
+            margin-top: 10%;
+            transform: translateY(-50%);
+            .error{
+                margin-left: 0.625rem;
+                .boton__busqueda{
+                    margin-top: 0% !important;
+                    height: 100%;
+                    border-color: black;
+                    background-color: black;
+                    color:white;
+                    border-radius: .25rem;
+                } 
+            }
+        }
+    }
+    #Consulta{
+        max-width: 43.75rem;
     }
 }
