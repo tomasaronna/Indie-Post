@@ -518,9 +518,11 @@ footer{
         }
     }
     #Consulta{
-        max-width: 21.875rem;
+        max-width: 80%;
     }
 }
+
+
 
 @media screen and (min-width:480px) and (max-width: 779px){
     nav{
@@ -701,6 +703,6 @@ footer{
         }
     }
     #Consulta{
-        max-width: 43.75rem;
+        max-width: 80%;
     }
 }
