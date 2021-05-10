@@ -1098,10 +1098,9 @@ footer .buscador .barra__busqueda .error .boton__busqueda {
     width: 100%;
     margin: 0px;
   }
-}
-
-#Consulta {
-  max-width: 21.875rem;
+  #Consulta {
+    max-width: 21.875rem;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 779px) {
